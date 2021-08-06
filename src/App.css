@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+.home-section {
+  background: url('./images/mountains2.jpg') center center/cover
+  no-repeat;
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.resume-section {
+  color:rgb(165, 154, 154);
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  
+}
+
+.contact-section {
+  background-color: #242424;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+
+  
+}
+
+#aboutme{ 
+  display: grid; 
+  grid-template-columns: 40% 60%; 
+} 
+
+.col-1{
+  height: 100vh; 
+  padding: 10px; 
+  background-color: #808080;
+  flex: 50%;
+} 
+
+.col-1 h1{
+  color: white;
+  padding-top: 35px;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.col-1 p {
+  color: white;
+  margin: 0 30px 150px 30px;
+  height: 200px;
+  width: 700px;
+  text-align: left;
+  padding-top: 25px;
+  font-size: 2rem;
+  font-family: 'Lora', serif;
+  /*padding-left: 13rem;*/
+}
+
+.propic img{
+  height: 24rem;
+  width: 24rem;
+  border: 5px solid white;
+  border-radius: 50%;
+  /*margin: 7rem 1rem 0 2rem;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-2{ 
+  color: white; 
+  height: 100vh; 
+  background-color: rgb(95, 94, 94); 
+  padding: 10px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+} 
+
+.col-2 h1{
+  color: white;
+  padding-top: 35px;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.header-text p{
+  color: #808080;
+  margin: 0 30px 30px 30px;
+  height: 100px;
+  width: 1100px;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 2rem;
+  font-family: 'Lora', serif;
+  /*padding-left: 13rem;*/
+}
+
+.timeline{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.timeline p {
+  font-family: 'Lora', serif;
+}
+
+.socials {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.email {
+  color: white;
+  float: left;
+}
