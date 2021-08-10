@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/vkodangattil/website/static/css/main.3763562a.chunk.css",
+    "main.js": "/vkodangattil/website/static/js/main.358ffb90.chunk.js",
+    "main.js.map": "/vkodangattil/website/static/js/main.358ffb90.chunk.js.map",
+    "runtime-main.js": "/vkodangattil/website/static/js/runtime-main.b923a690.js",
+    "runtime-main.js.map": "/vkodangattil/website/static/js/runtime-main.b923a690.js.map",
+    "static/css/2.63194743.chunk.css": "/vkodangattil/website/static/css/2.63194743.chunk.css",
+    "static/js/2.23e73249.chunk.js": "/vkodangattil/website/static/js/2.23e73249.chunk.js",
+    "static/js/2.23e73249.chunk.js.map": "/vkodangattil/website/static/js/2.23e73249.chunk.js.map",
+    "index.html": "/vkodangattil/website/index.html",
+    "static/css/2.63194743.chunk.css.map": "/vkodangattil/website/static/css/2.63194743.chunk.css.map",
+    "static/css/main.3763562a.chunk.css.map": "/vkodangattil/website/static/css/main.3763562a.chunk.css.map",
+    "static/js/2.23e73249.chunk.js.LICENSE.txt": "/vkodangattil/website/static/js/2.23e73249.chunk.js.LICENSE.txt",
+    "static/media/DNA.e4c6e438.jpg": "/vkodangattil/website/static/media/DNA.e4c6e438.jpg",
+    "static/media/HeroSection.css": "/vkodangattil/website/static/media/img-home.e51ea3bb.jpg",
+    "static/media/App.css": "/vkodangattil/website/static/media/mountains2.d565e5d9.jpg",
+    "static/media/propic.74578fcc.jpg": "/vkodangattil/website/static/media/propic.74578fcc.jpg",
+    "static/media/space.b1b7eabb.jpg": "/vkodangattil/website/static/media/space.b1b7eabb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b923a690.js",
+    "static/css/2.63194743.chunk.css",
+    "static/js/2.23e73249.chunk.js",
+    "static/css/main.3763562a.chunk.css",
+    "static/js/main.358ffb90.chunk.js"
+  ]
+}
