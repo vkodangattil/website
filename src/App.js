@@ -10,16 +10,12 @@ import Contact from './components/pages/Contact';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/website">
         <Navbar />
-          <Route path='/' exact component=
-          {Home} />
-          <Route path='/' exact component=
-          {AboutMe} />
-          <Route path='/' exact component=
-          {Resume} />
-          <Route path='/' exact component=
-          {Contact} />
+          <Route path='/' exact component={Home} />
+          <Route path='/' component={AboutMe} />
+          <Route path='/' component={Resume} />
+          <Route path='/' component={Contact} />
       </Router>
     </>
   );
