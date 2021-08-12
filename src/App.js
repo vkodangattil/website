@@ -9,14 +9,12 @@ import Contact from './components/pages/Contact';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/website">
         <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about-me" component={AboutMe} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/" component={AboutMe} />
+          <Route path="/" component={Resume} />
+          <Route path="/" component={Contact} />
       </BrowserRouter>
     </>
   );

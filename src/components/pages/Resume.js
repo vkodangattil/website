@@ -4,12 +4,13 @@ import { Document, Page } from 'react-pdf';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import 'react-vertical-timeline-component/style.min.css';
+import DownloadLink from "react-download-link";
 
 function Resume () {
     return (
         <div className="resume-section" id="resume"> 
             <div>
-                <Timeline className="timeline" lineColor={'#ddd'}>
+                <Timeline className="timeline" lineColor={'#000000'}>
                     <TimelineItem
                         key="001"
                         dateText="Software Engineer Intern"
@@ -85,7 +86,7 @@ function Resume () {
                         <p>
                             Assisted in cleaning and interpreting data from these scrapers
                         </p>
-                    </TimelineItem>   
+                    </TimelineItem> 
                 </Timeline>    
             </div>
         </div>
